@@ -23,13 +23,13 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: Department retrieved successfully
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Department'
-        '404':
+                $ref: "#/components/schemas/Department"
+        "404":
           description: Department not found
     put:
       summary: Update an existing department
@@ -46,13 +46,13 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Department'
+              $ref: "#/components/schemas/Department"
       responses:
-        '200':
+        "200":
           description: Department updated successfully
-        '400':
+        "400":
           description: Invalid request
-        '404':
+        "404":
           description: Department not found
     delete:
       summary: Delete a department
@@ -65,9 +65,9 @@ paths:
           schema:
             type: string
       responses:
-        '204':
+        "204":
           description: Department deleted successfully
-        '404':
+        "404":
           description: Department not found
   /api/departments:
     get:
@@ -75,14 +75,14 @@ paths:
       tags:
         - Departments
       responses:
-        '200':
+        "200":
           description: List of departments retrieved successfully
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Department'
+                  $ref: "#/components/schemas/Department"
     post:
       summary: Create a new department
       tags:
@@ -92,11 +92,11 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Department'
+              $ref: "#/components/schemas/Department"
       responses:
-        '201':
+        "201":
           description: Department created successfully
-        '400':
+        "400":
           description: Invalid request
   /api/employees/{id}:
     get:
@@ -110,13 +110,13 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: Employee retrieved successfully
           content:
             application/json:
               schema:
-                $ref: '#/components/schemas/Employee'
-        '404':
+                $ref: "#/components/schemas/Employee"
+        "404":
           description: Employee not found
     put:
       summary: Update an existing employee
@@ -133,13 +133,13 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Employee'
+              $ref: "#/components/schemas/Employee"
       responses:
-        '200':
+        "200":
           description: Employee updated successfully
-        '400':
+        "400":
           description: Invalid request
-        '404':
+        "404":
           description: Employee not found
     delete:
       summary: Delete an employee
@@ -152,9 +152,9 @@ paths:
           schema:
             type: string
       responses:
-        '204':
+        "204":
           description: Employee deleted successfully
-        '404':
+        "404":
           description: Employee not found
   /api/employees:
     get:
@@ -162,14 +162,14 @@ paths:
       tags:
         - Employees
       responses:
-        '200':
+        "200":
           description: List of employees retrieved successfully
           content:
             application/json:
               schema:
                 type: array
                 items:
-                  $ref: '#/components/schemas/Employee'
+                  $ref: "#/components/schemas/Employee"
     post:
       summary: Create a new employee
       tags:
@@ -179,11 +179,11 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/Employee'
+              $ref: "#/components/schemas/Employee"
       responses:
-        '201':
+        "201":
           description: Employee created successfully
-        '400':
+        "400":
           description: Invalid request
   /reset-password:
     post:
@@ -202,9 +202,9 @@ paths:
                 newPassword:
                   type: string
       responses:
-        '200':
+        "200":
           description: Password reset successfully
-        '400':
+        "400":
           description: Invalid request
   /register:
     post:
@@ -216,11 +216,11 @@ paths:
         content:
           application/json:
             schema:
-              $ref: '#/components/schemas/User'
+              $ref: "#/components/schemas/User"
       responses:
-        '201':
+        "201":
           description: User registered successfully
-        '400':
+        "400":
           description: Invalid request
   /authenticate:
     post:
@@ -239,9 +239,9 @@ paths:
                 password:
                   type: string
       responses:
-        '200':
+        "200":
           description: Authentication successful
-        '401':
+        "401":
           description: Invalid credentials
   /verify-username/{username}:
     get:
@@ -255,9 +255,9 @@ paths:
           schema:
             type: string
       responses:
-        '200':
+        "200":
           description: Username verified successfully
-        '404':
+        "404":
           description: Username not found
 components:
   schemas:
