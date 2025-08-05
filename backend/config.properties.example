@@ -1,0 +1,12 @@
+# Example Local Database Configuration
+# Copy this file to 'config.properties' and update with your actual MongoDB credentials
+
+# MongoDB Atlas Configuration (Recommended)
+MONGO_URI=mongodb+srv://your-username:your-password@your-cluster.mongodb.net/your-database?retryWrites=true&w=majority
+
+# Local MongoDB Configuration (Alternative)
+# MONGO_URI=mongodb://localhost:27017/employee_management
+
+# Additional Configuration (Optional)
+# DATABASE_NAME=employee_management
+# APP_PORT=8080

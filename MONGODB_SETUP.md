@@ -4,10 +4,10 @@
 
 ### What you need to do:
 
-1. **Update your password in config.properties:**
+1. **Create your configuration file:**
 
-   - Open: `backend/config.properties`
-   - Replace `YOUR_PASSWORD` with your actual MongoDB Atlas password
+   - Copy: `backend/config.properties.example` to `backend/config.properties`
+   - Update with your actual MongoDB Atlas credentials
    - Example: `mongodb+srv://your-username:your-password@your-cluster.mongodb.net/employee_management?retryWrites=true&w=majority`
 
 2. **Your MongoDB Configuration:**
