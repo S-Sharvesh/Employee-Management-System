@@ -456,6 +456,17 @@ The application uses Swagger to provide an interactive API documentation interfa
 
 3. **Raw OpenAPI JSON**: Available at [http://localhost:8080/v3/api-docs](http://localhost:8080/v3/api-docs)
 
+4. **Explore the API Endpoints**:
+- Use the sidebar or the search bar to navigate through the available API endpoints.
+- Click on an endpoint to view its details, including the request method (GET, POST, PUT, DELETE), parameters, request body, and possible responses.
+- You can also test the endpoints directly by clicking the **"Try it out"** button, providing the necessary input, and executing the request.
+- If you have everything set up correctly, you should see the following Swagger UI interface:
+
+<p align="center" style="cursor: pointer">
+ <img width="1464" height="1298" alt="image" src="https://github.com/user-attachments/assets/87c3ae8f-db47-4f66-950f-f7a27e27afda" />
+</p>
+
+
 **Benefits of Using Swagger UI:**
 
 - Interactive documentation for easy API understanding
