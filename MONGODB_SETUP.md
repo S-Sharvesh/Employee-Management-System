@@ -8,7 +8,7 @@
 
    - Open: `backend/config.properties`
    - Replace `YOUR_PASSWORD` with your actual MongoDB Atlas password
-   - Example: `mongodb+srv://ssharvesh65:yourpassword@managementapp.aqqlfyq.mongodb.net/employee_management?retryWrites=true&w=majority`
+   - Example: `mongodb+srv://your-username:your-password@your-cluster.mongodb.net/employee_management?retryWrites=true&w=majority`
 
 2. **Your MongoDB Configuration:**
 
