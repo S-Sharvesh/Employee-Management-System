@@ -2,9 +2,6 @@
 
 The **Employee Management Full-Stack Application** is a modern, feature-rich system for managing employee and department data, built to demonstrate the power of combining traditional enterprise technologies with modern web frameworks. It leverages a responsive React frontend alongside a robust Spring Boot backend, delivering a seamless user experience with features such as CRUD operations, data visualization, and secure REST APIs. This application uses MongoDB for data storage and is designed for local development and testing, making it an ideal learning project for full-stack development.
 
-<p align="center">
-  <img src="img/logo.png" alt="Employee Management Full-Stack Application Logo" style="border-radius: 10px" width="35%"/>
-</p>
 
 ## Table of Contents
 
@@ -78,11 +75,15 @@ The Employee Management System is a dynamic full-stack application that seamless
 
 ### Landing Page
 
+<img width="2852" height="1504" alt="image" src="https://github.com/user-attachments/assets/14df2e3a-7b77-4d6a-8fad-b61305cf31c9" />
+
 <!-- Landing page screenshot -->
 
 _Modern responsive landing page with navigation and branding_
 
 ### Dashboard
+
+<img width="2852" height="1624" alt="image" src="https://github.com/user-attachments/assets/617969af-cdef-44ac-9f00-de47f3a0dd49" />
 
 <!-- Dashboard screenshot -->
 
@@ -90,15 +91,65 @@ _Analytics dashboard with employee metrics and data visualization using Chart.js
 
 ### Employee Management
 
+<img width="2852" height="1570" alt="image" src="https://github.com/user-attachments/assets/65e097d5-d0b7-405a-a8c2-aad637787db9" />
+
 <!-- Employee list screenshot -->
 
 _Employee management interface with CRUD operations, search, and pagination_
 
 ### Department Management
 
+<img width="2852" height="1570" alt="image" src="https://github.com/user-attachments/assets/93a19664-3053-4407-b738-7c9bf3459083" />
+
 <!-- Department list screenshot -->
 
 _Department organization and management system_
+
+**Add Employee Form:**
+
+<p align="center" style="cursor: pointer">
+<img width="4" height="1" alt="image" src="https://github.com/user-attachments/assets/ba255dab-f902-404c-84c9-ddb4da9473c4" />
+</p>
+
+**Edit Department Form:**
+
+<p align="center" style="cursor: pointer">
+  <img width="2880" height="1622" alt="image" src="https://github.com/user-attachments/assets/48fb0b16-54e7-447f-a53e-861c4c0ebe28" />
+</p>
+
+**Profile Page:**
+
+<p align="center" style="cursor: pointer">
+ <img width="2852" height="1618" alt="image" src="https://github.com/user-attachments/assets/0259393e-88a7-4bf2-8996-055af578a5cf" />
+</p>
+
+**Login Page:**
+
+<p align="center" style="cursor: pointer">
+ <img width="2846" height="1624" alt="image" src="https://github.com/user-attachments/assets/2b030bdd-8556-4dbd-aa35-09f994bb32bd" />
+</p>
+
+**Register Page:**
+
+<p align="center" style="cursor: pointer">
+  <img width="2848" height="1556" alt="image" src="https://github.com/user-attachments/assets/77def6a7-a551-428a-97d9-371596781b68" />
+</p>
+
+**404 Page:**
+
+<p align="center" style="cursor: pointer">
+ <img width="2856" height="1612" alt="image" src="https://github.com/user-attachments/assets/c222a98f-19ed-445f-a03a-4c1d0aded8b0" />
+</p>
+
+**Footer:**
+
+<p align="center" style="cursor: pointer">
+ <img width="2852" height="660" alt="image" src="https://github.com/user-attachments/assets/9611073b-2b8a-4f5c-b2b4-66a605cd7a62" />
+</p>
+
+<p align="center">
+ And many more features & pages to explore! Feel free to navigate through the application and test the various functionalities.
+</p>
 
 ## Setup Instructions
 
